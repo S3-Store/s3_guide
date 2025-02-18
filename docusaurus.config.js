@@ -53,7 +53,7 @@ const config = {
           editUrl:
             'https://github.com/S3-Store/S3-guides/tree/main'
         },
-        blog: false,
+        blog: true,
         gtag: {
           'G-LHFQ533RZQ'
         },
