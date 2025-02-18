@@ -98,14 +98,6 @@ export default {
             {
               "label": "Stack Overflow",
               "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "X",
-              "href": "https://x.com/docusaurus"
             }
           ]
         },
@@ -118,7 +110,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/S3-Store/"
             }
           ]
         }
@@ -409,7 +401,7 @@ export default {
         "truncateMarker": {},
         "showReadingTime": true,
         "onUntruncatedBlogPosts": "ignore",
-        "editUrl": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main/",
+        "editUrl": "https://github.com/S3-Store/S3-guides/tree/main",
         "remarkPlugins": [
           [
             null,
