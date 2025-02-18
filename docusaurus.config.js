@@ -54,6 +54,7 @@ const config = {
             'https://github.com/S3-Store/S3-guides/tree/main'
         },
         blog: false,
+        gtag: G-LHFQ533RZQ,
         theme: {
           customCss: './src/css/custom.css'
         }
