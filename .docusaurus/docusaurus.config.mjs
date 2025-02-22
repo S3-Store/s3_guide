@@ -7,10 +7,10 @@ export default {
   "title": "Docusaurus Tailwind Shadcn/ui",
   "tagline": "Templates Docusaurus with Tailwind CSS and Shadcn/ui",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://s3-store.org",
   "baseUrl": "/",
-  "organizationName": "namnguyenthanhwork",
-  "projectName": "docusaurus-tailwind-shadcn-template",
+  "organizationName": "S3_STORE",
+  "projectName": "S3_Store",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -42,7 +42,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main",
+          "editUrl": "https://github.com/S3-Store/s3_guide/tree/main",
           "docItemComponent": "@theme/ApiItem"
         },
         "blog": false,
@@ -78,7 +78,7 @@ export default {
           "to": "/docs/category/petstore-versioned-api"
         },
         {
-          "href": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template",
+          "href": "https://github.com/S3-Store/s3_guide",
           "position": "right",
           "className": "header-github-link",
           "aria-label": "GitHub repository"
@@ -131,7 +131,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/S3-Store/"
             }
           ]
         }

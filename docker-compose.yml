@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .dockerdev
+      dockerfile: Dockerfile
+      args:
+        NODE_VERSION: 19
+    image: solidus-edgeguides
+    command: bash -c "(yarn check || yarn install --check-files) && tail -f /dev/null"
+    environment:
+      HISTFILE: "/home/node/history/bash_history"
+    ports:
+      - "${SERVER_PORT:-3000}:${SERVER_PORT:-3000}"
+    volumes:
+      - .:/home/node/app:delegated
+      - history:/home/node/history:cached
+    tty: true
+    stdin_open: true
+    tmpfs:
+      - /tmp
+
+volumes:
+  history:

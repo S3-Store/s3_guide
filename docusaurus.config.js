@@ -13,15 +13,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://s3-store.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'namnguyenthanhwork', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-tailwind-shadcn-template', // Usually your repo name.
+  organizationName: 'S3_STORE', // Usually your GitHub org/user name.
+  projectName: 'S3_Store', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main',
+            'https://github.com/S3-Store/s3_guide/tree/main',
           docItemComponent: '@theme/ApiItem' // Derived from docusaurus-theme-openapi
         },
         blog: false,
@@ -66,7 +66,7 @@ const config = {
           { to: '/blog', label: 'Blog', position: 'left' },
           { label: 'Petstore API', position: 'left', to: '/docs/category/petstore-versioned-api' },
           {
-            'href': 'https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template',
+            'href': 'https://github.com/S3-Store/s3_guide',
             'position': 'right',
             'className': 'header-github-link',
             'aria-label': 'GitHub repository'
@@ -93,7 +93,7 @@ const config = {
             title: 'More',
             items: [
               { label: 'Blog', to: '/blog' },
-              { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' }
+              { label: 'GitHub', href: 'https://github.com/S3-Store/' }
             ]
           }
         ],
