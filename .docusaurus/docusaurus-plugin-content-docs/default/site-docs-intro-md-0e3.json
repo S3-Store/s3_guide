@@ -8,7 +8,7 @@
   "permalink": "/docs/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/S3-Store/S3-guides/tree/main/docs/intro.md",
+  "editUrl": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "title": "Create a Page",
+    "permalink": "/docs/tutorial-basics/create-a-page"
   }
 }

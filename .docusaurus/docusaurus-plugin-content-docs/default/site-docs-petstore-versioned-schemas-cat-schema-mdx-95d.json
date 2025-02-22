@@ -1,0 +1,56 @@
+{
+  "id": "petstore_versioned/schemas/cat",
+  "title": "Cat",
+  "description": "A representation of a cat",
+  "source": "@site/docs/petstore_versioned/schemas/cat.schema.mdx",
+  "sourceDirName": "petstore_versioned/schemas",
+  "slug": "/petstore_versioned/schemas/cat",
+  "permalink": "/docs/petstore_versioned/schemas/cat",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "cat",
+    "title": "Cat",
+    "description": "A representation of a cat",
+    "sidebar_label": "Cat",
+    "hide_title": true,
+    "hide_table_of_contents": true,
+    "schema": true,
+    "sample": {
+      "id": 0,
+      "category": {
+        "id": 0,
+        "name": "string",
+        "sub": {
+          "prop1": "string"
+        }
+      },
+      "name": "Guru",
+      "photoUrls": [
+        "string"
+      ],
+      "friend": {},
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available",
+      "huntingSkill": "adventurous"
+    },
+    "custom_edit_url": null
+  },
+  "sidebar": "petstore-2.0.0",
+  "previous": {
+    "title": "Pets",
+    "permalink": "/docs/petstore_versioned/pet"
+  },
+  "next": {
+    "title": "Add a new pet to the store",
+    "permalink": "/docs/petstore_versioned/add-pet"
+  }
+}

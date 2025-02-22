@@ -1,0 +1,29 @@
+{
+  "id": "petstore_versioned/1.0.0/store",
+  "title": "Petstore Orders",
+  "description": "Petstore Orders",
+  "source": "@site/docs/petstore_versioned/1.0.0/store.tag.mdx",
+  "sourceDirName": "petstore_versioned/1.0.0",
+  "slug": "/petstore_versioned/1.0.0/store",
+  "permalink": "/docs/petstore_versioned/1.0.0/store",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "store",
+    "title": "Petstore Orders",
+    "description": "Petstore Orders",
+    "custom_edit_url": null
+  },
+  "sidebar": "petstore-1.0.0",
+  "previous": {
+    "title": "New pet",
+    "permalink": "/docs/petstore_versioned/1.0.0/new-pet"
+  },
+  "next": {
+    "title": "Returns pet inventories by status",
+    "permalink": "/docs/petstore_versioned/1.0.0/get-inventory"
+  }
+}

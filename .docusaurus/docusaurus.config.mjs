@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "S3 Store Guides",
-  "tagline": "The operation manual for S3 Stores",
+  "title": "Docusaurus Tailwind Shadcn/ui",
+  "tagline": "Templates Docusaurus with Tailwind CSS and Shadcn/ui",
   "favicon": "img/favicon.ico",
-  "url": "https://s3-store.org",
+  "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
-  "organizationName": "s3-store",
-  "projectName": "S3-guides",
+  "organizationName": "namnguyenthanhwork",
+  "projectName": "docusaurus-tailwind-shadcn-template",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -42,7 +42,8 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/S3-Store/S3-guides/tree/main"
+          "editUrl": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main",
+          "docItemComponent": "@theme/ApiItem"
         },
         "blog": false,
         "theme": {
@@ -72,6 +73,11 @@ export default {
           "position": "left"
         },
         {
+          "label": "Petstore API",
+          "position": "left",
+          "to": "/docs/category/petstore-versioned-api"
+        },
+        {
           "href": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template",
           "position": "right",
           "className": "header-github-link",
@@ -79,6 +85,13 @@ export default {
         }
       ],
       "hideOnScroll": false
+    },
+    "docs": {
+      "sidebar": {
+        "autoCollapseCategories": true,
+        "hideable": true
+      },
+      "versionPersistence": "localStorage"
     },
     "footer": {
       "style": "dark",
@@ -98,6 +111,14 @@ export default {
             {
               "label": "Stack Overflow",
               "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+            },
+            {
+              "label": "Discord",
+              "href": "https://discordapp.com/invite/docusaurus"
+            },
+            {
+              "label": "X",
+              "href": "https://x.com/docusaurus"
             }
           ]
         },
@@ -110,7 +131,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/S3-Store/"
+              "href": "https://github.com/facebook/docusaurus"
             }
           ]
         }
@@ -118,21 +139,126 @@ export default {
       "copyright": "Copyright © 2025 Docusaurus Tailwind Shadcn. Templates by <a href=\"https://github.com/namnguyenthanhwork\" style=\"font-weight: bold;\" target=\"_blank\">Thành Nam Nguyễn</a>"
     },
     "prism": {
+      "additionalLanguages": [
+        "ruby",
+        "csharp",
+        "php",
+        "java",
+        "powershell",
+        "json",
+        "bash",
+        "dart",
+        "objectivec",
+        "r"
+      ],
       "theme": {
         "plain": {
-          "color": "#393A34",
-          "backgroundColor": "#f6f8fa"
+          "color": "#bfc7d5",
+          "backgroundColor": "#292d3e"
         },
         "styles": [
           {
             "types": [
-              "comment",
-              "prolog",
-              "doctype",
-              "cdata"
+              "comment"
             ],
             "style": {
-              "color": "#999988",
+              "color": "rgb(105, 112, 152)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "inserted"
+            ],
+            "style": {
+              "color": "rgb(195, 232, 141)"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "rgb(247, 140, 108)"
+            }
+          },
+          {
+            "types": [
+              "builtin",
+              "char",
+              "constant",
+              "function"
+            ],
+            "style": {
+              "color": "rgb(130, 170, 255)"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(199, 146, 234)"
+            }
+          },
+          {
+            "types": [
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(191, 199, 213)"
+            }
+          },
+          {
+            "types": [
+              "class-name",
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(255, 203, 107)"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "deleted"
+            ],
+            "style": {
+              "color": "rgb(255, 85, 114)"
+            }
+          },
+          {
+            "types": [
+              "operator"
+            ],
+            "style": {
+              "color": "rgb(137, 221, 255)"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "rgb(255, 88, 116)"
+            }
+          },
+          {
+            "types": [
+              "keyword"
+            ],
+            "style": {
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "doctype"
+            ],
+            "style": {
+              "color": "rgb(199, 146, 234)",
               "fontStyle": "italic"
             }
           },
@@ -141,175 +267,19 @@ export default {
               "namespace"
             ],
             "style": {
-              "opacity": 0.7
+              "color": "rgb(178, 204, 214)"
             }
           },
           {
             "types": [
-              "string",
-              "attr-value"
+              "url"
             ],
             "style": {
-              "color": "#e3116c"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "operator"
-            ],
-            "style": {
-              "color": "#393A34"
-            }
-          },
-          {
-            "types": [
-              "entity",
-              "url",
-              "symbol",
-              "number",
-              "boolean",
-              "variable",
-              "constant",
-              "property",
-              "regex",
-              "inserted"
-            ],
-            "style": {
-              "color": "#36acaa"
-            }
-          },
-          {
-            "types": [
-              "atrule",
-              "keyword",
-              "attr-name",
-              "selector"
-            ],
-            "style": {
-              "color": "#00a4db"
-            }
-          },
-          {
-            "types": [
-              "function",
-              "deleted",
-              "tag"
-            ],
-            "style": {
-              "color": "#d73a49"
-            }
-          },
-          {
-            "types": [
-              "function-variable"
-            ],
-            "style": {
-              "color": "#6f42c1"
-            }
-          },
-          {
-            "types": [
-              "tag",
-              "selector",
-              "keyword"
-            ],
-            "style": {
-              "color": "#00009f"
+              "color": "rgb(221, 221, 221)"
             }
           }
         ]
       },
-      "darkTheme": {
-        "plain": {
-          "color": "#F8F8F2",
-          "backgroundColor": "#282A36"
-        },
-        "styles": [
-          {
-            "types": [
-              "prolog",
-              "constant",
-              "builtin"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)"
-            }
-          },
-          {
-            "types": [
-              "inserted",
-              "function"
-            ],
-            "style": {
-              "color": "rgb(80, 250, 123)"
-            }
-          },
-          {
-            "types": [
-              "deleted"
-            ],
-            "style": {
-              "color": "rgb(255, 85, 85)"
-            }
-          },
-          {
-            "types": [
-              "changed"
-            ],
-            "style": {
-              "color": "rgb(255, 184, 108)"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "symbol"
-            ],
-            "style": {
-              "color": "rgb(248, 248, 242)"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "char",
-              "tag",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(255, 121, 198)"
-            }
-          },
-          {
-            "types": [
-              "keyword",
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)",
-              "fontStyle": "italic"
-            }
-          },
-          {
-            "types": [
-              "comment"
-            ],
-            "style": {
-              "color": "rgb(98, 114, 164)"
-            }
-          },
-          {
-            "types": [
-              "attr-name"
-            ],
-            "style": {
-              "color": "rgb(241, 250, 140)"
-            }
-          }
-        ]
-      },
-      "additionalLanguages": [],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",
@@ -321,17 +291,103 @@ export default {
         }
       ]
     },
+    "languageTabs": [
+      {
+        "highlight": "python",
+        "language": "python",
+        "logoClass": "python"
+      },
+      {
+        "highlight": "bash",
+        "language": "curl",
+        "logoClass": "curl"
+      },
+      {
+        "highlight": "csharp",
+        "language": "csharp",
+        "logoClass": "csharp"
+      },
+      {
+        "highlight": "go",
+        "language": "go",
+        "logoClass": "go"
+      },
+      {
+        "highlight": "javascript",
+        "language": "nodejs",
+        "logoClass": "nodejs"
+      },
+      {
+        "highlight": "ruby",
+        "language": "ruby",
+        "logoClass": "ruby"
+      },
+      {
+        "highlight": "php",
+        "language": "php",
+        "logoClass": "php"
+      },
+      {
+        "highlight": "java",
+        "language": "java",
+        "logoClass": "java",
+        "variant": "unirest"
+      },
+      {
+        "highlight": "powershell",
+        "language": "powershell",
+        "logoClass": "powershell"
+      },
+      {
+        "highlight": "dart",
+        "language": "dart",
+        "logoClass": "dart"
+      },
+      {
+        "highlight": "javascript",
+        "language": "javascript",
+        "logoClass": "javascript"
+      },
+      {
+        "highlight": "c",
+        "language": "c",
+        "logoClass": "c"
+      },
+      {
+        "highlight": "objective-c",
+        "language": "objective-c",
+        "logoClass": "objective-c"
+      },
+      {
+        "highlight": "ocaml",
+        "language": "ocaml",
+        "logoClass": "ocaml"
+      },
+      {
+        "highlight": "r",
+        "language": "r",
+        "logoClass": "r"
+      },
+      {
+        "highlight": "swift",
+        "language": "swift",
+        "logoClass": "swift"
+      },
+      {
+        "highlight": "kotlin",
+        "language": "kotlin",
+        "logoClass": "kotlin"
+      },
+      {
+        "highlight": "rust",
+        "language": "rust",
+        "logoClass": "rust"
+      }
+    ],
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
       "respectPrefersColorScheme": false
-    },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
     },
     "blog": {
       "sidebar": {
@@ -346,7 +402,7 @@ export default {
   },
   "themes": [
     [
-      "/Users/fthobe/Repositories/s3-guides/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+      "/Users/fthobe/Repositories/s3_guide/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
       {
         "indexPages": true,
         "docsRouteBasePath": "/docs",
@@ -360,12 +416,43 @@ export default {
         "searchBarShortcut": true,
         "searchBarShortcutHint": true
       }
-    ]
+    ],
+    "docusaurus-theme-openapi-docs"
   ],
   "plugins": [
     [
       "./src/plugins/tailwind-config.js",
       {}
+    ],
+    [
+      "docusaurus-plugin-openapi-docs",
+      {
+        "id": "openapi",
+        "docsPluginId": "classic",
+        "config": {
+          "petstore_versioned": {
+            "specPath": "api-swagger/petstore.yaml",
+            "outputDir": "docs/petstore_versioned",
+            "sidebarOptions": {
+              "groupPathsBy": "tag",
+              "categoryLinkSource": "tag"
+            },
+            "version": "2.0.0",
+            "label": "v2.0.0",
+            "baseUrl": "/docs/petstore_versioned/swagger-petstore-yaml",
+            "downloadUrl": "https://raw.githubusercontent.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/main/api-swagger/petstore.yaml",
+            "versions": {
+              "1.0.0": {
+                "specPath": "api-swagger/petstore-1.0.0.yaml",
+                "outputDir": "docs/petstore_versioned/1.0.0",
+                "label": "v1.0.0",
+                "baseUrl": "/docs/petstore_versioned/1.0.0/swagger-petstore-yaml",
+                "downloadUrl": "https://raw.githubusercontent.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/main/api-swagger/petstore-1.0.0.yaml"
+              }
+            }
+          }
+        }
+      }
     ],
     [
       "ideal-image",
@@ -401,7 +488,7 @@ export default {
         "truncateMarker": {},
         "showReadingTime": true,
         "onUntruncatedBlogPosts": "ignore",
-        "editUrl": "https://github.com/S3-Store/S3-guides/tree/main",
+        "editUrl": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main/",
         "remarkPlugins": [
           [
             null,

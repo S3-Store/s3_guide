@@ -30,6 +30,11 @@
     "tailwind-plugin": {
       "type": "project"
     },
+    "docusaurus-plugin-openapi-docs": {
+      "type": "package",
+      "name": "docusaurus-plugin-openapi-docs",
+      "version": "4.3.4"
+    },
     "docusaurus-plugin-ideal-image": {
       "type": "package",
       "name": "@docusaurus/plugin-ideal-image",
@@ -42,6 +47,11 @@
       "type": "package",
       "name": "@easyops-cn/docusaurus-search-local",
       "version": "0.48.5"
+    },
+    "docusaurus-theme-openapi": {
+      "type": "package",
+      "name": "docusaurus-theme-openapi-docs",
+      "version": "4.3.4"
     }
   }
 }

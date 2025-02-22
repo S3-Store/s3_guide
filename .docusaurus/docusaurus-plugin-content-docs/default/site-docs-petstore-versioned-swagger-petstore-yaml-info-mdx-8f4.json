@@ -1,0 +1,33 @@
+{
+  "id": "petstore_versioned/swagger-petstore-yaml",
+  "title": "Swagger Petstore YAML",
+  "description": "This is a sample server Petstore server.",
+  "source": "@site/docs/petstore_versioned/swagger-petstore-yaml.info.mdx",
+  "sourceDirName": "petstore_versioned",
+  "slug": "/petstore_versioned/swagger-petstore-yaml",
+  "permalink": "/docs/petstore_versioned/swagger-petstore-yaml",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "swagger-petstore-yaml",
+    "title": "Swagger Petstore YAML",
+    "description": "This is a sample server Petstore server.",
+    "sidebar_label": "Introduction",
+    "sidebar_position": 0,
+    "hide_title": true,
+    "custom_edit_url": null
+  },
+  "sidebar": "petstore-2.0.0",
+  "previous": {
+    "title": "Petstore",
+    "permalink": "/docs/category/petstore-versioned-api"
+  },
+  "next": {
+    "title": "Pets",
+    "permalink": "/docs/petstore_versioned/pet"
+  }
+}

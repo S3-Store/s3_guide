@@ -1,0 +1,35 @@
+{
+  "id": "petstore_versioned/1.0.0/create-users-with-list-input",
+  "title": "Creates list of users with given input list",
+  "description": "",
+  "source": "@site/docs/petstore_versioned/1.0.0/create-users-with-list-input.api.mdx",
+  "sourceDirName": "petstore_versioned/1.0.0",
+  "slug": "/petstore_versioned/1.0.0/create-users-with-list-input",
+  "permalink": "/docs/petstore_versioned/1.0.0/create-users-with-list-input",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "create-users-with-list-input",
+    "title": "Creates list of users with given input list",
+    "description": "",
+    "sidebar_label": "Creates list of users with given input list",
+    "hide_title": true,
+    "hide_table_of_contents": true,
+    "api": "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",
+    "sidebar_class_name": "post api-method",
+    "info_path": "docs/petstore_versioned/1.0.0/swagger-petstore-yaml",
+    "custom_edit_url": null
+  },
+  "sidebar": "petstore-1.0.0",
+  "previous": {
+    "title": "Creates list of users with given input array",
+    "permalink": "/docs/petstore_versioned/1.0.0/create-users-with-array-input"
+  },
+  "next": {
+    "title": "Logs user into the system",
+    "permalink": "/docs/petstore_versioned/1.0.0/login-user"
+  }
+}

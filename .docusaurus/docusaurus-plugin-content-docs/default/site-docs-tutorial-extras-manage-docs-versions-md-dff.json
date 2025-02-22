@@ -8,7 +8,7 @@
   "permalink": "/docs/tutorial-extras/manage-docs-versions",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/S3-Store/S3-guides/tree/main/docs/tutorial-extras/manage-docs-versions.md",
+  "editUrl": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main/docs/tutorial-extras/manage-docs-versions.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tutorial - Extras",
-    "permalink": "/docs/category/tutorial---extras"
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
   },
   "next": {
     "title": "Translate your site",

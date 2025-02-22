@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/mdx-blog-post",
-  "editUrl": "https://github.com/S3-Store/S3-guides/tree/main/blog/2021-08-01-mdx-blog-post.mdx",
+  "editUrl": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main/blog/2021-08-01-mdx-blog-post.mdx",
   "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
   "title": "MDX Blog Post",
   "description": "Blog posts support Docusaurus Markdown features, such as MDX.",

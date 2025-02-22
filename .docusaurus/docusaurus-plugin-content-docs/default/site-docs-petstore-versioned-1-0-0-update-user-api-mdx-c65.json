@@ -1,0 +1,35 @@
+{
+  "id": "petstore_versioned/1.0.0/update-user",
+  "title": "Updated user",
+  "description": "This can only be done by the logged in user.",
+  "source": "@site/docs/petstore_versioned/1.0.0/update-user.api.mdx",
+  "sourceDirName": "petstore_versioned/1.0.0",
+  "slug": "/petstore_versioned/1.0.0/update-user",
+  "permalink": "/docs/petstore_versioned/1.0.0/update-user",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "update-user",
+    "title": "Updated user",
+    "description": "This can only be done by the logged in user.",
+    "sidebar_label": "Updated user",
+    "hide_title": true,
+    "hide_table_of_contents": true,
+    "api": "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",
+    "sidebar_class_name": "put api-method",
+    "info_path": "docs/petstore_versioned/1.0.0/swagger-petstore-yaml",
+    "custom_edit_url": null
+  },
+  "sidebar": "petstore-1.0.0",
+  "previous": {
+    "title": "Get user by user name",
+    "permalink": "/docs/petstore_versioned/1.0.0/get-user-by-name"
+  },
+  "next": {
+    "title": "Delete user",
+    "permalink": "/docs/petstore_versioned/1.0.0/delete-user"
+  }
+}

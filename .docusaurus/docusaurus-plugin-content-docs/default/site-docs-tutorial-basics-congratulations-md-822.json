@@ -8,7 +8,7 @@
   "permalink": "/docs/tutorial-basics/congratulations",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/S3-Store/S3-guides/tree/main/docs/tutorial-basics/congratulations.md",
+  "editUrl": "https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/tree/main/docs/tutorial-basics/congratulations.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 6,
@@ -21,7 +21,7 @@
     "permalink": "/docs/tutorial-basics/deploy-your-site"
   },
   "next": {
-    "title": "Tutorial - Extras",
-    "permalink": "/docs/category/tutorial---extras"
+    "title": "Manage Docs Versions",
+    "permalink": "/docs/tutorial-extras/manage-docs-versions"
   }
 }

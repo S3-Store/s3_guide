@@ -16,6 +16,271 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "petstore_versioned/1.0.0/add-pet",
+              "path": "/docs/petstore_versioned/1.0.0/add-pet",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/create-user",
+              "path": "/docs/petstore_versioned/1.0.0/create-user",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/create-users-with-array-input",
+              "path": "/docs/petstore_versioned/1.0.0/create-users-with-array-input",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/create-users-with-list-input",
+              "path": "/docs/petstore_versioned/1.0.0/create-users-with-list-input",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/delete-order",
+              "path": "/docs/petstore_versioned/1.0.0/delete-order",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/delete-pet",
+              "path": "/docs/petstore_versioned/1.0.0/delete-pet",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/delete-user",
+              "path": "/docs/petstore_versioned/1.0.0/delete-user",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/find-pets-by-status",
+              "path": "/docs/petstore_versioned/1.0.0/find-pets-by-status",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/find-pets-by-tags",
+              "path": "/docs/petstore_versioned/1.0.0/find-pets-by-tags",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/get-inventory",
+              "path": "/docs/petstore_versioned/1.0.0/get-inventory",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/get-order-by-id",
+              "path": "/docs/petstore_versioned/1.0.0/get-order-by-id",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/get-pet-by-id",
+              "path": "/docs/petstore_versioned/1.0.0/get-pet-by-id",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/get-user-by-name",
+              "path": "/docs/petstore_versioned/1.0.0/get-user-by-name",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/login-user",
+              "path": "/docs/petstore_versioned/1.0.0/login-user",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/logout-user",
+              "path": "/docs/petstore_versioned/1.0.0/logout-user",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/new-pet",
+              "path": "/docs/petstore_versioned/1.0.0/new-pet",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/pet",
+              "path": "/docs/petstore_versioned/1.0.0/pet",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/place-order",
+              "path": "/docs/petstore_versioned/1.0.0/place-order",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/store",
+              "path": "/docs/petstore_versioned/1.0.0/store",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/subscribe-to-the-store-events",
+              "path": "/docs/petstore_versioned/1.0.0/subscribe-to-the-store-events",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/swagger-petstore-yaml",
+              "path": "/docs/petstore_versioned/1.0.0/swagger-petstore-yaml",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/update-pet",
+              "path": "/docs/petstore_versioned/1.0.0/update-pet",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/update-pet-with-form",
+              "path": "/docs/petstore_versioned/1.0.0/update-pet-with-form",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/update-user",
+              "path": "/docs/petstore_versioned/1.0.0/update-user",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/upload-file",
+              "path": "/docs/petstore_versioned/1.0.0/upload-file",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/1.0.0/user",
+              "path": "/docs/petstore_versioned/1.0.0/user",
+              "sidebar": "petstore-1.0.0"
+            },
+            {
+              "id": "petstore_versioned/add-pet",
+              "path": "/docs/petstore_versioned/add-pet",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/create-user",
+              "path": "/docs/petstore_versioned/create-user",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/create-users-with-array-input",
+              "path": "/docs/petstore_versioned/create-users-with-array-input",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/create-users-with-list-input",
+              "path": "/docs/petstore_versioned/create-users-with-list-input",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/delete-order",
+              "path": "/docs/petstore_versioned/delete-order",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/delete-pet",
+              "path": "/docs/petstore_versioned/delete-pet",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/delete-user",
+              "path": "/docs/petstore_versioned/delete-user",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/find-pets-by-status",
+              "path": "/docs/petstore_versioned/find-pets-by-status",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/find-pets-by-tags",
+              "path": "/docs/petstore_versioned/find-pets-by-tags",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/get-inventory",
+              "path": "/docs/petstore_versioned/get-inventory",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/get-order-by-id",
+              "path": "/docs/petstore_versioned/get-order-by-id",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/get-pet-by-id",
+              "path": "/docs/petstore_versioned/get-pet-by-id",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/get-user-by-name",
+              "path": "/docs/petstore_versioned/get-user-by-name",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/login-user",
+              "path": "/docs/petstore_versioned/login-user",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/logout-user",
+              "path": "/docs/petstore_versioned/logout-user",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/new-pet",
+              "path": "/docs/petstore_versioned/new-pet",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/pet",
+              "path": "/docs/petstore_versioned/pet",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/place-order",
+              "path": "/docs/petstore_versioned/place-order",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/schemas/cat",
+              "path": "/docs/petstore_versioned/schemas/cat",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/store",
+              "path": "/docs/petstore_versioned/store",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/subscribe-to-the-store-events",
+              "path": "/docs/petstore_versioned/subscribe-to-the-store-events",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/swagger-petstore-yaml",
+              "path": "/docs/petstore_versioned/swagger-petstore-yaml",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/update-pet",
+              "path": "/docs/petstore_versioned/update-pet",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/update-pet-with-form",
+              "path": "/docs/petstore_versioned/update-pet-with-form",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/update-user",
+              "path": "/docs/petstore_versioned/update-user",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/upload-file",
+              "path": "/docs/petstore_versioned/upload-file",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
+              "id": "petstore_versioned/user",
+              "path": "/docs/petstore_versioned/user",
+              "sidebar": "petstore-2.0.0"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
@@ -56,14 +321,14 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
+              "id": "/category/petstore-versioned-api",
+              "path": "/docs/category/petstore-versioned-api",
+              "sidebar": "petstore-2.0.0"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
+              "id": "/category/petstore-api-1.0.0",
+              "path": "/docs/category/petstore-api-1.0.0",
+              "sidebar": "petstore-1.0.0"
             }
           ],
           "draftIds": [],
@@ -72,6 +337,18 @@
               "link": {
                 "path": "/docs/intro",
                 "label": "intro"
+              }
+            },
+            "petstore-2.0.0": {
+              "link": {
+                "path": "/docs/category/petstore-versioned-api",
+                "label": "Petstore"
+              }
+            },
+            "petstore-1.0.0": {
+              "link": {
+                "path": "/docs/category/petstore-api-1.0.0",
+                "label": "Petstore"
               }
             }
           }
