@@ -8,15 +8,9 @@
   "tags": [
     {
       "inline": false,
-      "label": "Hola",
-      "permalink": "/blog/tags/hola",
-      "description": "Articles on the topic hola"
-    },
-    {
-      "inline": false,
-      "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
-      "description": "Articles on the topic docusaurus"
+      "label": "Community",
+      "permalink": "/blog/tags/community",
+      "description": "Everything around the S3 Community"
     }
   ],
   "readingTime": 0.12,
@@ -24,12 +18,15 @@
   "authors": [
     {
       "page": {
-        "permalink": "/blog/authors/gao-wei"
+        "permalink": "/blog/authors/fthobe"
       },
-      "name": "Gao Wei",
-      "title": "Docusaurus Core Team",
-      "imageURL": "https://github.com/wgao19.png",
-      "key": "gao-wei"
+      "name": "Fabian V. Thobe",
+      "title": "Maintainer",
+      "socials": {
+        "github": "https://github.com/fthobe"
+      },
+      "imageURL": "https://github.com/fthobe.png",
+      "key": "fthobe"
     }
   ],
   "frontMatter": {
@@ -37,11 +34,10 @@
     "title": "First Blog Post",
     "image": "https://res.cloudinary.com/thanhnam/image/upload/v1736787946/project/docusaurus-tailwind-shadcn-template/blog_vep2ri.jpg",
     "authors": [
-      "gao-wei"
+      "fthobe"
     ],
     "tags": [
-      "hola",
-      "docusaurus"
+      "Community"
     ]
   },
   "unlisted": false,
