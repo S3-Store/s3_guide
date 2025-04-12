@@ -42,7 +42,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/S3-Store/s3_guide/tree/main",
+          "editUrl": "https://github.com/S3-Store/s3_guide/tree/staging",
           "docItemComponent": "@theme/ApiItem"
         },
         "blog": false,

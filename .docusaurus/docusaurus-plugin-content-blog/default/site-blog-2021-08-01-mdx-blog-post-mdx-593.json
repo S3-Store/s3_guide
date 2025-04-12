@@ -7,10 +7,9 @@
   "date": "2021-08-01T00:00:00.000Z",
   "tags": [
     {
-      "inline": false,
+      "inline": true,
       "label": "Community",
-      "permalink": "/blog/tags/community",
-      "description": "Everything around the S3 Community"
+      "permalink": "/blog/tags/community"
     }
   ],
   "readingTime": 0.175,

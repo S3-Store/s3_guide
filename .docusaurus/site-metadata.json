@@ -33,7 +33,7 @@
     "docusaurus-plugin-openapi-docs": {
       "type": "package",
       "name": "docusaurus-plugin-openapi-docs",
-      "version": "4.3.4"
+      "version": "4.3.7"
     },
     "docusaurus-plugin-ideal-image": {
       "type": "package",
