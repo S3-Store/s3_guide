@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Docusaurus Tailwind Shadcn/ui",
-  "tagline": "Templates Docusaurus with Tailwind CSS and Shadcn/ui",
+  "title": "S3-Store eCommerce Platform",
+  "tagline": "Guides and API Docs",
   "favicon": "img/favicon.ico",
   "url": "https://s3-store.org",
   "baseUrl": "/",
@@ -42,7 +42,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/S3-Store/s3_guide/tree/main",
+          "editUrl": "https://github.com/S3-Store/s3_guide/tree/staging",
           "docItemComponent": "@theme/ApiItem"
         },
         "blog": false,
@@ -55,9 +55,9 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Docusaurus Tailwind Shadcn/ui",
+      "title": "S3-Store",
       "logo": {
-        "alt": "Docusaurus Tailwind Shadcn/ui Logo",
+        "alt": "S3-Store Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -78,7 +78,7 @@ export default {
           "to": "/docs/category/petstore-versioned-api"
         },
         {
-          "href": "https://github.com/S3-Store/s3_guide",
+          "href": "https://github.com/S3-Store/s3_store",
           "position": "right",
           "className": "header-github-link",
           "aria-label": "GitHub repository"
@@ -136,7 +136,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Docusaurus Tailwind Shadcn. Templates by <a href=\"https://github.com/namnguyenthanhwork\" style=\"font-weight: bold;\" target=\"_blank\">Thành Nam Nguyễn</a>"
+      "copyright": "Copyright © 2025 GMS, Template provided by Docusaurus Tailwind Shadcn. Templates by <a href=\"https://github.com/namnguyenthanhwork\" style=\"font-weight: bold;\" target=\"_blank\">Thành Nam Nguyễn</a>"
     },
     "prism": {
       "additionalLanguages": [

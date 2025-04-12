@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', 'b2f'),
     exact: true
@@ -53,28 +18,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/authors/endi',
-    component: ComponentCreator('/blog/authors/endi', 'f22'),
-    exact: true
-  },
-  {
-    path: '/blog/authors/gao-wei',
-    component: ComponentCreator('/blog/authors/gao-wei', '84e'),
-    exact: true
-  },
-  {
-    path: '/blog/authors/slorber',
-    component: ComponentCreator('/blog/authors/slorber', '0a9'),
-    exact: true
-  },
-  {
-    path: '/blog/authors/thanhnamnguyen',
-    component: ComponentCreator('/blog/authors/thanhnamnguyen', '32b'),
-    exact: true
-  },
-  {
-    path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', 'f79'),
+    path: '/blog/authors/fthobe',
+    component: ComponentCreator('/blog/authors/fthobe', '766'),
     exact: true
   },
   {
@@ -98,23 +43,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '704'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '858'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '299'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '00d'),
+    path: '/blog/tags/community',
+    component: ComponentCreator('/blog/tags/community', '694'),
     exact: true
   },
   {

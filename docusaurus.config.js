@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/S3-Store/s3_guide/tree/main',
+            'https://github.com/S3-Store/s3_guide/tree/staging',
           docItemComponent: '@theme/ApiItem' // Derived from docusaurus-theme-openapi
         },
         blog: false,
@@ -59,14 +59,14 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Docusaurus Tailwind Shadcn/ui',
-        logo: { alt: 'Docusaurus Tailwind Shadcn/ui Logo', src: 'img/logo.svg' },
+        title: 'S3-Store',
+        logo: { alt: 'S3-Store Logo', src: 'img/logo.svg' },
         items: [
           { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Tutorial' },
           { to: '/blog', label: 'Blog', position: 'left' },
           { label: 'Petstore API', position: 'left', to: '/docs/category/petstore-versioned-api' },
           {
-            'href': 'https://github.com/S3-Store/s3_guide',
+            'href': 'https://github.com/S3-Store/s3_store',
             'position': 'right',
             'className': 'header-github-link',
             'aria-label': 'GitHub repository'
@@ -97,7 +97,7 @@ const config = {
             ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Docusaurus Tailwind Shadcn. Templates by <a href="https://github.com/namnguyenthanhwork" style="font-weight: bold;" target="_blank">Thành Nam Nguyễn</a>`
+        copyright: `Copyright © ${new Date().getFullYear()} GMS, Template provided by Docusaurus Tailwind Shadcn. Templates by <a href="https://github.com/namnguyenthanhwork" style="font-weight: bold;" target="_blank">Thành Nam Nguyễn</a>`
       },
       prism: {
         additionalLanguages: [
@@ -154,6 +154,13 @@ const config = {
   ],
   plugins: [
     ['./src/plugins/tailwind-config.js', {}],
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-LHFQ533RZQ',
+        anonymizeIP: true,
+      },
+    ],
     [
       'docusaurus-plugin-openapi-docs',
       {

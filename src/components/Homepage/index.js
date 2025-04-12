@@ -28,16 +28,16 @@ function HomepageHeader() {
         <p className='mb-4 text-lg md:text-xl lg:text-2xl'>
           <span className='mb-1 block'>{siteConfig.tagline}</span>
           <Link
-            href='https://github.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template'
+            href='https://github.com/s3-store/s3_store'
             className='text-blue-700 dark:text-green-700'
           >
-            Please read README.md for more about project information
+            Learn how to install S3 in three minutes!
           </Link>
         </p>
 
         <Button asChild>
           <Link to='/docs/intro' className='hover:text-primary-foreground'>
-            Docusaurus Tutorial - 5min ⏱️
+            Installation Tutorial - 5min ⏱️
           </Link>
         </Button>
       </div>

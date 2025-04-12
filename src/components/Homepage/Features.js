@@ -1,11 +1,10 @@
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'SEO Ready & Fully Structured Data Compliant',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and used to get your
-        website up and running quickly.
+        S3 brings all fields to boost your SEO immediately with a fully compliant structured data archeticture.
       </>
     )
   },
@@ -20,7 +19,7 @@ const FeatureList = [
     )
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by Rails',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>

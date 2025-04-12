@@ -1,9 +1,9 @@
 ---
 slug: welcome
-title: Welcome
+title: Welcome to S3 - A new rails powered eCommerce experience!
 image: https://res.cloudinary.com/thanhnam/image/upload/v1736787946/project/docusaurus-tailwind-shadcn-template/blog_vep2ri.jpg
-authors: [slorber, yangshun, thanhnamnguyen]
-tags: [facebook, hello, docusaurus]
+authors: [fthobe]
+tags: [Community]
 ---
 
 [Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).

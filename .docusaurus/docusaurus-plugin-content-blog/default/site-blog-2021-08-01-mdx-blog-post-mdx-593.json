@@ -7,10 +7,9 @@
   "date": "2021-08-01T00:00:00.000Z",
   "tags": [
     {
-      "inline": false,
-      "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
-      "description": "Articles on the topic docusaurus"
+      "inline": true,
+      "label": "Community",
+      "permalink": "/blog/tags/community"
     }
   ],
   "readingTime": 0.175,
@@ -18,31 +17,15 @@
   "authors": [
     {
       "page": {
-        "permalink": "/blog/authors/slorber"
+        "permalink": "/blog/authors/fthobe"
       },
-      "name": "Sébastien Lorber",
-      "title": "Docusaurus maintainer",
+      "name": "Fabian V. Thobe",
+      "title": "Maintainer",
       "socials": {
-        "x": "https://x.com/sebastienlorber",
-        "linkedin": "https://www.linkedin.com/in/sebastienlorber/",
-        "github": "https://github.com/slorber",
-        "newsletter": "https://thisweekinreact.com"
+        "github": "https://github.com/fthobe"
       },
-      "imageURL": "https://github.com/slorber.png",
-      "key": "slorber"
-    },
-    {
-      "page": {
-        "permalink": "/blog/authors/thanhnamnguyen"
-      },
-      "name": "Thành Nam Nguyễn",
-      "title": "Developer",
-      "socials": {
-        "github": "https://github.com/namnguyenthanhwork",
-        "newsletter": "https://wwww.thanhnamnguyen.dev/"
-      },
-      "imageURL": "https://res.cloudinary.com/thanhnam/image/upload/v1715137157/project/docusaurus-material-ui-template/logo_wnw5lv.png",
-      "key": "thanhnamnguyen"
+      "imageURL": "https://github.com/fthobe.png",
+      "key": "fthobe"
     }
   ],
   "frontMatter": {
@@ -50,16 +33,15 @@
     "title": "MDX Blog Post",
     "image": "https://res.cloudinary.com/thanhnam/image/upload/v1736787946/project/docusaurus-tailwind-shadcn-template/blog_vep2ri.jpg",
     "authors": [
-      "slorber",
-      "thanhnamnguyen"
+      "fthobe"
     ],
     "tags": [
-      "docusaurus"
+      "Community"
     ]
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Welcome",
+    "title": "Welcome to S3 - A new rails powered eCommerce experience!",
     "permalink": "/blog/welcome"
   },
   "nextItem": {
