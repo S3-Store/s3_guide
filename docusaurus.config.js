@@ -8,8 +8,8 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docusaurus Tailwind Shadcn/ui',
-  tagline: 'Templates Docusaurus with Tailwind CSS and Shadcn/ui',
+  title: 'S3-Store eCommerce Platform',
+  tagline: 'Guides and API Docs',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
