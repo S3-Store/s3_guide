@@ -2,7 +2,7 @@
   "title": "List blog",
   "items": [
     {
-      "title": "Welcome",
+      "title": "Welcome to S3 - A new rails powered eCommerce experience!",
       "permalink": "/blog/welcome",
       "unlisted": false,
       "date": "2021-08-26T00:00:00.000Z"
