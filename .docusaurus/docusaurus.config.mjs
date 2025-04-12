@@ -425,6 +425,13 @@ export default {
       {}
     ],
     [
+      "@docusaurus/plugin-google-gtag",
+      {
+        "trackingID": "G-LHFQ533RZQ",
+        "anonymizeIP": true
+      }
+    ],
+    [
       "docusaurus-plugin-openapi-docs",
       {
         "id": "openapi",
