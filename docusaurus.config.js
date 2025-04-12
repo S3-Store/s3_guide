@@ -161,24 +161,24 @@ const config = {
         docsPluginId: 'classic',
         config: {
           // multiVersion
-          s3_versioned: {
-            specPath: 'api-swagger/s3_store.yaml',
-            outputDir: 'docs/api', // No trailing slash
+          petstore_versioned: {
+            specPath: 'api-swagger/petstore.yaml',
+            outputDir: 'docs/petstore_versioned', // No trailing slash
             sidebarOptions: {
               groupPathsBy: 'tag',
               categoryLinkSource: 'tag'
             },
             version: '2.0.0', // Current version
             label: 'v2.0.0', // Current version label
-            baseUrl: '/docs/api_versioned/swagger-petstore-yaml', // Leading slash is important
+            baseUrl: '/docs/petstore_versioned/swagger-petstore-yaml', // Leading slash is important
             downloadUrl:
               'https://raw.githubusercontent.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/main/api-swagger/petstore.yaml',
             versions: {
               '1.0.0': {
-                specPath: 'api-swagger/s3_store-1.0.0.yaml',
-                outputDir: 'docs/api_versioned/1.0.0', // No trailing slash
+                specPath: 'api-swagger/petstore-1.0.0.yaml',
+                outputDir: 'docs/petstore_versioned/1.0.0', // No trailing slash
                 label: 'v1.0.0',
-                baseUrl: '/docs/api_versioned/1.0.0/swagger-petstore-yaml', // Leading slash is important
+                baseUrl: '/docs/petstore_versioned/1.0.0/swagger-petstore-yaml', // Leading slash is important
                 downloadUrl:
                   'https://raw.githubusercontent.com/namnguyenthanhwork/docusaurus-tailwind-shadcn-template/main/api-swagger/petstore-1.0.0.yaml'
               }
