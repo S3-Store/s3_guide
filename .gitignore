@@ -26,4 +26,4 @@ Temporary Items
 .apdisk
 
 # Crawler Configuration
-static/robots.txt
+**/robots.txt
