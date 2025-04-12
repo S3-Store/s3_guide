@@ -38,12 +38,6 @@ const config = {
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      {
-        gtag: {
-          trackingID: 'G-LHFQ533RZQ',
-          anonymizeIP: false,
-        },
-      },
       ({
         docs: {
           sidebarPath: './sidebars.js',
@@ -161,6 +155,11 @@ const config = {
   plugins: [
     ['./src/plugins/tailwind-config.js', {}],
     [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-LHFQ533RZQ',
+        anonymizeIP: true,
+      },
       'docusaurus-plugin-openapi-docs',
       {
         id: 'openapi',
