@@ -62,14 +62,14 @@ const config = {
         title: 'S3-Store',
         logo: { alt: 'S3-Store Logo', src: 'img/logo.svg' },
         items: [
-          { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Tutorial' },
+          { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Docs' },
           { to: '/blog', label: 'Blog', position: 'left' },
           { label: 'Petstore API', position: 'left', to: '/docs/category/petstore-versioned-api' },
           {
-            'href': 'https://github.com/S3-Store/s3_store',
+            'href': 'https://github.com/S3-Store/',
             'position': 'right',
             'className': 'header-github-link',
-            'aria-label': 'GitHub repository'
+            'aria-label': 'GitHub Repositories'
           }
         ]
       },
@@ -77,7 +77,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          { title: 'Docs', items: [{ label: 'Tutorial', to: '/docs/intro' }] },
+          { title: 'Docs', items: [{ label: 'Docs', to: '/docs/intro' }] },
           {
             title: 'Community',
             items: [
